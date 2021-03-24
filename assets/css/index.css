@@ -112,8 +112,8 @@
     text-align: center
   }
   .navbar-collapse {
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 135px;
+    max-height: 135px;
   }
 
   li {
