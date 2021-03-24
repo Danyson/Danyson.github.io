@@ -111,6 +111,9 @@
     font-style: italic;
     text-align: center
   }
+  .navbar-collapse {
+    max-height: 150px;
+  }
 
   li {
     color: #666666;
