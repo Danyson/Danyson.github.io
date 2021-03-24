@@ -9,7 +9,7 @@
   }
 
   .c5 {
-    color: #b45f06;
+    color:   #ff8533;
     font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
@@ -66,9 +66,10 @@
   }
 
   .c8 {
+    color:   #ff8533;
     text-decoration-skip-ink: none;
     -webkit-text-decoration-skip: none;
-    text-decoration: underline
+    text-decoration: inherit
   }
 
   .c10 {
@@ -78,7 +79,7 @@
   }
 
   .c0 {
-    color: inherit;
+    color: #fff0e6;
     text-decoration: inherit
   }
 
@@ -126,7 +127,7 @@
 
   h1 {
     padding-top: 24pt;
-    color: #b45f06;
+    color:   #ff8533;
     font-size: 14pt;
     padding-bottom: 0pt;
     font-family: "Oswald";
