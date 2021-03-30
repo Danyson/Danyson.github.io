@@ -54,8 +54,7 @@
 </head>
 
 <body>
-
-
+  <button type="button" onclick="goBack()" class="glyphicon glyphicon-menu-left" style="color:#388df5">Back</button>
   <h1>Alien-Trix</h1>
   <span class="col-md-3">
     <img src="assets/images/alientrix/alientrix.png" class="rounded float-right" width="600" height="400" alt="learntrix">
@@ -103,6 +102,12 @@
 
   <!--Custom JS-->
   <script src="assets/js/custom.js"></script>
+  <!-- Go back button function -->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
 </footer>
 
 </html>
