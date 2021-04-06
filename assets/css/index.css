@@ -128,6 +128,15 @@
     font-size: 11pt;
     font-family: "Droid Serif"
   }
+  h0 {
+    padding-top: 30pt;
+    color:   #ff8533;
+    font-size: 40pt;
+    padding-bottom: 0pt;
+    font-family: "Oswald";
+    line-height: 1.3;
+    text-align: center
+  }
 
   h1 {
     padding-top: 24pt;
