@@ -120,6 +120,20 @@
 -->
 
 <body>
+  <!-- POPUP FRAME -->
+  <div id="popup" class="popup panel panel-primary">
+
+    <!-- and here comes the image -->
+    <img src="assets/images/coaching/summer-class.png" alt="popup">
+
+    <!-- Now this is the button which closes the popup-->
+    <div class="panel-footer">
+      <button id="close" class="btn btn-lg btn-secondary" style="color:black;">Close</button>
+    </div>
+
+    <!-- and finally we close the POPUP FRAME-->
+    <!-- everything on it will show up within the popup so you can add more things not just an image -->
+  </div>
   <span id="body_id">
     <span class="body_class">
       <section id="contents" class="contents" <div class="section-heading text-center">
@@ -392,6 +406,19 @@
 
       <!--Custom JS-->
       <script src="assets/js/custom.js"></script>
+      <script>
+        //with this first line we're saying: "when the page loads (document is ready) run the following script"
+        $(document).ready(function() {
+          //select the POPUP FRAME and show it
+          $("#popup").hide().fadeIn(1000);
+
+          //close the POPUP if the button with id="close" is clicked
+          $("#close").on("click", function(e) {
+            e.preventDefault();
+            $("#popup").fadeOut(1000);
+          });
+        });
+      </script>
     </span>
   </span>
 </body>
