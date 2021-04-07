@@ -58,7 +58,7 @@
 <header class="top-area">
   <div class="header-area">
     <!-- Start Navigation -->
-    <nav class="navbar navbar-light" style="background-color: #262626;opacity: 0.7;">
+    <nav class="navbar navbar-light" style="background-color: #050505;opacity: 0.7;">
 
       <div class="container">
 
@@ -67,7 +67,7 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
             <i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand" href="index.html" style="color:#F4B400;">Trix</a>
+          <a class="navbar-brand" href="index.html" style="color:#149414;">Trix</a>
         </div>
         <!--/.navbar-header-->
         <!-- End Header Navigation -->
@@ -75,11 +75,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
           <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-            <li><a href="coaching.html" style="color:#F4B400;">COACHING</a></li>
-            <li><a href="alientrix.html" style="color:#F4B400;">IT SERVICES</a></li>
-            <li><a href="learntrix.html" style="color:#F4B400;">EDUCATION SERVICES</a></li>
-            <li><a href="memes.html" style="color:#F4B400;">MEMES</a></li>
-            <li><a href="#about" style="color:#F4B400;">ABOUT</a></li>
+            <li><a href="coaching.html" style="color:#149414;">COACHING</a></li>
+            <li><a href="alientrix.html" style="color:#149414;">IT SERVICES</a></li>
+            <li><a href="memes.html" style="color:#149414;">MEMES</a></li>
+            <li><a href="#about" style="color:#149414;">ABOUT</a></li>
             <!--     <li class="smooth-menu"><a href="#experience">experience</a></li>
 			                    <li class="smooth-menu"><a href="#profiles">profile</a></li>
 			                    <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
@@ -122,15 +121,12 @@
 <body>
   <!-- POPUP FRAME -->
   <div id="popup" class="popup panel panel-primary">
-
     <!-- and here comes the image -->
     <img src="assets/images/coaching/summer-class.png" alt="popup">
-
     <!-- Now this is the button which closes the popup-->
     <div class="panel-footer">
-      <button id="close" class="btn btn-lg btn-secondary" style="color:black;">Close</button>
+      <button id="close" class="btn btn-lg btn-secondary" style="color:black;">x</button>
     </div>
-
     <!-- and finally we close the POPUP FRAME-->
     <!-- everything on it will show up within the popup so you can add more things not just an image -->
   </div>
@@ -403,22 +399,8 @@
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
-
       <!--Custom JS-->
       <script src="assets/js/custom.js"></script>
-      <script>
-        //with this first line we're saying: "when the page loads (document is ready) run the following script"
-        $(document).ready(function() {
-          //select the POPUP FRAME and show it
-          $("#popup").hide().fadeIn(1000);
-
-          //close the POPUP if the button with id="close" is clicked
-          $("#close").on("click", function(e) {
-            e.preventDefault();
-            $("#popup").fadeOut(1000);
-          });
-        });
-      </script>
     </span>
   </span>
 </body>

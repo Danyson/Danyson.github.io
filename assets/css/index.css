@@ -9,7 +9,7 @@
   }
 
   .c5 {
-    color: #ff8533;
+    color: #149414;
     font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
@@ -66,7 +66,7 @@
   }
 
   .c8 {
-    color: #ff8533;
+    color: #149414;
     text-decoration-skip-ink: none;
     -webkit-text-decoration-skip: none;
     text-decoration: inherit
@@ -132,7 +132,7 @@
 
   .big_header {
     padding-top: 30pt;
-    color: #ff8533;
+    color: #149414;
     font-size: 40pt;
     padding-bottom: 0pt;
     font-family: "Oswald";
@@ -142,7 +142,7 @@
 
   h1 {
     padding-top: 24pt;
-    color: #ff8533;
+    color: #149414;
     font-size: 14pt;
     padding-bottom: 0pt;
     font-family: "Oswald";
@@ -205,7 +205,7 @@
   }
 
   body {
-    background-color: #262626;
+    background-color: #050505;
     color: white;
   }
 
