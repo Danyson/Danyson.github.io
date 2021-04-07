@@ -10,7 +10,7 @@
 
   .c5 {
     color: #149414;
-    font-weight: 400;
+    font-weight: bold;
     text-decoration: none;
     vertical-align: baseline;
     font-size: 14pt;
@@ -79,7 +79,8 @@
   }
 
   .c0 {
-    color: #fff0e6;
+    color: #388df5;
+    font-weight: 800;
     text-decoration: inherit
   }
 
@@ -144,6 +145,7 @@
     padding-top: 24pt;
     color: #149414;
     font-size: 14pt;
+    font-weight: bold;
     padding-bottom: 0pt;
     font-family: "Oswald";
     line-height: 1.3;
