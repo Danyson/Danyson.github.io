@@ -227,3 +227,23 @@
     color: #388df5;
     font-weight: 800;
   }
+  .container {
+    position: relative;
+    max-width: 500px;
+  }
+
+  .container .btn-circle {
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    transform: translate(-70%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    padding: 12px 0px;
+    border-radius: 30px;
+  }
+  .spidey-image{
+    width: auto;
+    height: auto;
+  }
